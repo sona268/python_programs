@@ -1,0 +1,1 @@
+print(enter the hospital name: )

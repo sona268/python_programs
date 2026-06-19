@@ -25,12 +25,13 @@ with open("newfile.txt","r") as f:
     print("After Read Position: ",f.tell())
     f.seek(4)
     print("After Seek: ",f.tell())
-    print(f.read())'''
+    print(f.read())
 
 with open("cherryblossom.jpg","rb") as read_data:
     image_read=data.read()
     print(image_read)
-'''
+
+
 # TRY OUT PIP INSTALL PILLOW AND USE ITS FUNCTIONS, USE PILLOW TO IMPORT IMAGE
 
 tech=open("delete_file.txt","x")
@@ -43,7 +44,7 @@ if os.path.exists(file_path):
     os.remove(file_path)
     print(f"{file_path} deleted successfully")
 else:
-    print("File does not exist")'''
+    print("File does not exist")
 
 
 # SERIALIZATION AND DESERIALIZATION
