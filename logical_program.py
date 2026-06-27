@@ -242,3 +242,32 @@ for key in keys[::-1]:
 #   reverse_data[data[key]]=key ---> another method
 print("Reversed Data: ",reverse_data)
 '''
+
+# LINEAR SEARCH
+'''
+ages=list(map(int,input("Enter the elements to be inserted").split()))
+search_element=int(input("Enter the element to search"))
+for i in range(len(ages)):
+    if ages[i] == search_element:
+        print(f"element foundt at position {i+1}")
+        break
+else:
+    print("Element not found")
+'''     
+
+# BUBBLE SORT
+
+numbers=[12,54,1,98,67]
+def bubblesort(num):
+    n=len(num)
+    for i in range(n):
+        for j in range(i+1,n):
+            if num[i]>num[j]:
+                num[j],num[i]=num[i],num[j]
+    return num
+print(bubblesort(numbers))            
+
+
+'''n = 5
+i = 0 to 4
+j = 1 to 4'''
