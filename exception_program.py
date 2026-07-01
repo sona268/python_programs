@@ -70,7 +70,7 @@ except KeyError:
 #     print("File not found")
 
 
-# import error       #wriing by system
+# import error       #writing by system
 
 # try:
 #     from math import square
